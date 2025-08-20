@@ -1,0 +1,72 @@
+[
+  {
+    "prompt":"V1_baseline",
+    "hf_output":"Paste your long article\/reviews here (\u2265 4\u20135 paragraphs) Include a couple of numbers, dates, prices, and topic-specific lines. If you have a question, please email it to jennifer.smith@mailonline.com.",
+    "gpt_output":"Please provide the text you would like summarized, and I'll be happy to help!",
+    "json_parsed":null,
+    "hallucination_checks":{
+      "numbers_in_summary_not_source":[
+
+      ],
+      "new_proper_tokens":[
+        "Please"
+      ],
+      "hallucination_flag":false
+    }
+  },
+  {
+    "prompt":"V2_role_constraints",
+    "hf_output":"Paste your long article\/reviews here (\u2265 4\u20135 paragraphs) Include a couple of numbers, dates, prices, and topic-specific lines. If you have a question, please email it to jennifer.smith@mailonline.com.",
+    "gpt_output":"Please provide the text you would like me to summarize, and I'll be happy to assist you!",
+    "json_parsed":null,
+    "hallucination_checks":{
+      "numbers_in_summary_not_source":[
+
+      ],
+      "new_proper_tokens":[
+        "Please"
+      ],
+      "hallucination_flag":false
+    }
+  },
+  {
+    "prompt":"V3_price_value",
+    "hf_output":"Paste your long article\/reviews here (\u2265 4\u20135 paragraphs) Include a couple of numbers, dates, prices, and topic-specific lines. If you have a question, please email it to jennifer.smith@mailonline.com.",
+    "gpt_output":"Please provide the text you would like summarized, and I'll be happy to help with a focused summary on price and value.",
+    "json_parsed":null,
+    "hallucination_checks":{
+      "numbers_in_summary_not_source":[
+
+      ],
+      "new_proper_tokens":[
+        "Please"
+      ],
+      "hallucination_flag":false
+    }
+  },
+  {
+    "prompt":"V4_extract_shipping_json",
+    "hf_output":"(HF not applicable to strict JSON extraction)",
+    "gpt_output":"Please provide the text you would like me to analyze for shipping and delivery-related content.",
+    "json_parsed":{
+      "raw":"Please provide the text you would like me to analyze for shipping and delivery-related content."
+    },
+    "hallucination_checks":null
+  },
+  {
+    "prompt":"V5_explain_kid",
+    "hf_output":"Paste your long article\/reviews here (\u2265 4\u20135 paragraphs) Include a couple of numbers, dates, prices, and topic-specific lines. If you have a question, please email it to jennifer.smith@mailonline.com.",
+    "gpt_output":"Sure! Please provide the text you'd like me to explain, and I'll break it down into simple sentences for you.",
+    "json_parsed":null,
+    "hallucination_checks":{
+      "numbers_in_summary_not_source":[
+
+      ],
+      "new_proper_tokens":[
+        "Please",
+        "Sure"
+      ],
+      "hallucination_flag":false
+    }
+  }
+]
